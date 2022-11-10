@@ -1,6 +1,6 @@
 # C#
 
-This repository is intended to store the Excercises and Projects for the Solo Learn Platform. 
+This repository is intended to store the Exercises and Projects for the Solo Learn Platform. 
 This includes the modules: Basic Concepts, Conditionals and Loops, and Methods. 
 
 &nbsp;
