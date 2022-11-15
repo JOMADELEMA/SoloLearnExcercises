@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _19_RecursiveSumming
 {
@@ -26,9 +22,8 @@ namespace _19_RecursiveSumming
         static int Sum(int num)
         {
             if (num == 1)
-            {
                 return 1;
-            }
+
             return num + Sum(num - 1);
         }
     }

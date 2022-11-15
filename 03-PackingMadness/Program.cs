@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PackingMadness
 {
@@ -17,15 +13,10 @@ namespace PackingMadness
              * Write a program to calculate and output how many toys
              * will be left after packing 
              * 
-             * 
              */
-
-            float toys = 142f;
-            float boxCapacity = 15f;
+            float toys = 142f, boxCapacity = 15f;
 
             Console.WriteLine(toys % boxCapacity);
-
-
         }
     }
 }

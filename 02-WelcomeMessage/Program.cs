@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WelcomeMessage
 {
@@ -23,7 +19,6 @@ namespace WelcomeMessage
             Console.Write("Please enter the name: ");
             string name = Console.ReadLine();
             Console.WriteLine($"Hello {name}. Welcome to our event");
-
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FlightKindles
 {
@@ -10,7 +6,6 @@ namespace FlightKindles
     {
         static void Main(string[] args)
         {
-
             /*
              * Airlines are offering a special promotion for teenagers
              * and are offeritn kindles to us during the flight. 
@@ -22,10 +17,8 @@ namespace FlightKindles
 
             int age = Convert.ToInt32(Console.ReadLine());
 
-            if(age <= 19)
-            {
+            if (age <= 19)
                 Console.WriteLine("Take your kindle");
-            }
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GoingOnceGoingTwiceSold
 {
@@ -38,7 +34,6 @@ namespace GoingOnceGoingTwiceSold
              * Hint:
              * In order to make continuous input acceptance you need to use while(true) condition.
              */
-
             int maxBid = Convert.ToInt32(Console.ReadLine());
 
             while (true)

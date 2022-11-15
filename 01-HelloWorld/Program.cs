@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld
 {
@@ -10,7 +6,6 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-
             /*
              * Write a program to print "C# is cool".
              * Test change.

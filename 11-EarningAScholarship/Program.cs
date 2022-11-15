@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _11_EarningAScholarship
 {
@@ -25,21 +21,15 @@ namespace _11_EarningAScholarship
              * Expected Output 
              * Denied
              */
-
             Console.Write("Enter the Attendance value: ");
             int attendance = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the Average Score: ");
-            int avgScore = Convert.ToInt32((Console.ReadLine()));   
+            int avgScore = Convert.ToInt32((Console.ReadLine()));
 
-            if(attendance >=95 && avgScore >= 80)
-            {
+            if (attendance >= 95 && avgScore >= 80)
                 Console.WriteLine("Accepted");
-            }
             else
-            {
                 Console.WriteLine("Denied");
-            }
-
         }
     }
 }

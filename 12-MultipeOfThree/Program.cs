@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _12_MultipeOfThree
 {
@@ -26,19 +22,14 @@ namespace _12_MultipeOfThree
              * 
              * The N number is a multiple of 3 if N%3 ==0
              */
-
             int number = Convert.ToInt32(Console.ReadLine());
 
-            for (int i=1; i<=number; i++)
+            for (int i = 1; i <= number; i++)
             {
                 if (i % 3 == 0)
-                {
                     Console.WriteLine("*");
-                }
                 else
-                {
                     Console.WriteLine(i);
-                }
             }
         }
     }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _09_UpWeGo
 {
@@ -29,14 +25,10 @@ namespace _09_UpWeGo
              * Use the for loop to perfomr the multiplications iteratively. 
              * 
              */
-
             int kmph = 80;
 
             for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine(kmph*i);
-            }
-
+                Console.WriteLine(kmph * i);
         }
     }
 }

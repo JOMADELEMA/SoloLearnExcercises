@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05_AreaOfACircle
 {
@@ -27,9 +23,7 @@ namespace _05_AreaOfACircle
 
             Console.Write("Enter the radius of the circle: ");
             radius = Convert.ToDouble(Console.ReadLine());
-            //double area = pi * Math.Pow(radius, 2);
-            double area = pi * (radius * radius);
-            Console.WriteLine(area);
+            Console.WriteLine(pi * (radius * radius));
         }
     }
 }

@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _15_Geometry
 {
     internal class Program
     {
-
         /*
          * You are writing a program to calculate the area of a reactangle.
          * Currently it takes the length and the height as inputs. 
@@ -32,12 +27,8 @@ namespace _15_Geometry
             int height = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(Area(length, height));
-
         }
 
-        static int Area(int length, int height)
-        {
-            return length * height;
-        }
+        static int Area(int length, int height) => length * height;
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _13_FunWithMethods
 {
@@ -16,9 +12,6 @@ namespace _13_FunWithMethods
             myFunc();
         }
 
-        static void myFunc()
-        {
-            Console.WriteLine("This is my first method");
-        }
+        static void myFunc() => Console.WriteLine("This is my first method");
     }
 }

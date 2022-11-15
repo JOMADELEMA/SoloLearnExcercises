@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _16_SeeItAndForgetIt
 {
@@ -24,7 +20,6 @@ namespace _16_SeeItAndForgetIt
         {
             Settings("James", 25, "Spanish");
             Settings("Tom", 36);
-
         }
 
         static void Settings(string name, int age, string lang = "English")

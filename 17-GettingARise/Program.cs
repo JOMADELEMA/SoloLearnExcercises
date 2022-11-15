@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _17_GettingARise
 {
@@ -43,10 +39,7 @@ namespace _17_GettingARise
             Console.WriteLine("After the increase: " + salaryBudget);
         }
 
-        static void Increase(ref int salaryBudget, int percent)
-        {
-            //salaryBudget = Convert.ToInt32(salaryBudget*Convert.ToDouble((1+percent/100)));
-            salaryBudget= Convert.ToInt32(salaryBudget*(1+Convert.ToDouble(percent)/100));
-        }
+        //Work on a better code for Increase method.
+        static void Increase(ref int salaryBudget, int percent) => salaryBudget = Convert.ToInt32(salaryBudget * (1 + Convert.ToDouble(percent) / 100));
     }
 }
